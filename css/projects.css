@@ -1,0 +1,62 @@
+a h2{
+    top: 0.3rem;
+    margin-left: 1rem;
+    position: fixed;
+}
+header{
+    position: fixed;
+    z-index: 1;
+}
+
+.backButton {
+    position: fixed;
+    top: 2rem;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.3rem;
+    padding-right: 1rem;
+    border-radius: 114px;
+    background-color: white;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.backButton:hover {
+    background-color: #fff2df;
+}
+
+.project-head{
+    font-size: 3rem;
+    text-align: center;
+}
+
+video{
+    top: 2rem;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+p.p-project{
+    line-height: 1.3rem;
+}
+
+.about-project-body{
+    padding-left: 3rem;
+}
+
+li{
+    font-family: 'sohne', Arial, sans-serif;
+    line-height: 1.3rem;
+}
+
+.type{
+    text-align: right;
+}
+
+.block3{
+    padding: 1rem;
+}
+
+.block4{
+    padding: 2rem;
+}

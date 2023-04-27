@@ -1,0 +1,126 @@
+/* for all */
+* {
+    box-sizing: border-box;
+}
+/* for the site */
+html{
+    background-color: #ffffff;
+    margin:2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+h1 {
+    font-family: 'sohne', Arial, sans-serif;
+    font-weight: 1;
+    font-size: 62px;
+}
+
+h2{
+    font-family: 'financier', Arial, sans-serif;
+    font-weight:550;
+    font-size: 35px;
+
+}
+
+h3{
+    font-family: 'financier', Arial, sans-serif;
+    font-weight: 1;
+}
+
+body {
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding:0;
+}
+
+p{
+    font-family: 'sohne', Arial, sans-serif;
+}
+
+a{
+    color: black;
+}
+
+a.sarah:hover {
+    background-color: #fff2df;
+    font-style: italic;
+}
+
+.front-copy{
+    margin-top: -2rem;
+    max-width: 50%;
+}
+
+.fixed{
+    position: fixed;
+}
+
+.resume {
+    font-family: 'financier', Arial, sans-serif;
+    font-size: 35px;
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    border: 2px solid rgb(0, 0, 0);
+    max-width: 10rem;
+    border-radius: 114px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.resume:hover {
+    background-color: #fff2df;
+    font-style: italic;
+    padding-bottom: 0.62rem;
+}
+
+.sliders{
+    display: flex;
+    position: relative;
+    border-radius: 114px;
+}
+
+.projectLink:hover img.slideImg{
+    background: none;
+    filter: grayscale(0%);
+    opacity: 1;
+    transform: translate(-80%);
+    transition: 0.4s;
+}
+
+img.slideImg{
+    border-radius: 114px;
+    filter: grayscale(100%);
+    display: block;
+}
+
+.background-color{
+    position: absolute;
+    width: 437px;
+    height: 228px;
+    border-radius: 114px;
+    background-color: #fff2df;
+    z-index: -3;
+}
+
+.overlay-text{
+    color: black;
+    max-width: 15rem;
+    margin-top: -1rem;
+    transform: translate(9rem);
+    position: absolute;
+    font-style: italic;
+}
+
+.block1{
+    padding: 1rem;
+}
+
+.block2{
+    padding: 0.4rem;
+}
+/* -------------------------------------- RESPONSIVE ------------------------------------- */

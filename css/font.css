@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "sohne";
+    font-style: normal;
+    src: url(/font/testsohne-buch-webfont.woff) format("woff"),
+    url(/font/testsohne-buch-webfont.woff2) format("woff2");
+    font-display: swap;
+  }
+
+
+@font-face {
+    font-family: "financier";
+    font-style: normal;
+    src: url(/font/testfinanciertext-regular-webfont.woff) format("woff"),
+    url(/font/testfinanciertext-regular-webfont.woff2) format("woff2");
+    font-display: swap;
+  }
+
+@font-face {
+    font-family: "financier";
+    font-style: italic;
+    src: url(/font/test-financier-text-regular-italic.woff2) format("woff2");
+}

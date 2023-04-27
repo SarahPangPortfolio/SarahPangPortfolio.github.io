@@ -1,0 +1,43 @@
+.grid-container-main{
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+}
+
+.grid-container-sliders{
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 38% 20% auto auto auto;
+}
+
+.grid-container-precendents{
+  display: grid;
+  padding-left: 5rem;
+  grid-template-columns: auto 10% auto 10% auto;
+}
+
+.grid-item-line{
+  padding-left: 50%;
+}
+
+.grid-container-mockups{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.grid-container-project{
+  display: grid;
+  grid-template-columns: 37% 4% auto auto;
+}
+
+.grid-item{
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.grid-item-mockups{
+  padding-left: 2vw;
+  justify-content: right;
+}
