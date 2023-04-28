@@ -42,7 +42,7 @@ a{
     color: black;
 }
 
-a.sarah:hover {
+a.text:hover {
     background-color: #fff2df;
     font-style: italic;
 }
