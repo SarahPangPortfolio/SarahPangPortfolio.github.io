@@ -34,12 +34,11 @@
 }
 
 .grid-item{
-  background-color: rgba(255, 255, 255, 0);
+  padding-right: 5%;
 }
 
 .grid-item-mockups{
-  padding-left: 2vw;
-  justify-content: right;
+  padding-right: 2vw;
 }
 
 .grid-container-about{

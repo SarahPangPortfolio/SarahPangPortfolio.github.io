@@ -10,7 +10,7 @@ header{
 
 .backButton {
     position: fixed;
-    margin-left: -6rem;
+    margin-left: -6.5%;
     top: 2rem;
     padding-left: 1rem;
     padding-top: 0.5rem;
@@ -31,7 +31,7 @@ header{
     float: left;
     list-style-type: none;
     margin-top: 2.1rem;
-    margin-left: -9.9rem;
+    margin-left: -10%;
 }
 
 .navbar li {
