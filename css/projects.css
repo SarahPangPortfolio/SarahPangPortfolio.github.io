@@ -49,6 +49,12 @@ li{
     line-height: 1.3rem;
 }
 
+.sarah{
+    padding-right: 0;
+    margin-right: 0;
+    right: 0;
+}
+
 .type{
     text-align: right;
 }

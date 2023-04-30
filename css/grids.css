@@ -41,3 +41,19 @@
   padding-left: 2vw;
   justify-content: right;
 }
+
+.grid-container-about{
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.grid-item-sarah{
+  justify-self: right;
+  padding-left: 30%;
+}
+.grid-item-about{
+  padding-top: 15%;
+  max-width: 60%;
+}

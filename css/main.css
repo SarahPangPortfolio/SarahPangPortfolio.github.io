@@ -132,4 +132,14 @@ img.slideImg{
 .block2{
     padding: 0.4rem;
 }
+
+.slider-block{
+    padding: 2rem;
+}
+
+.mark{
+    position: fixed;
+    bottom: 0;
+    color: rgb(114, 114, 114);
+}
 /* -------------------------------------- RESPONSIVE ------------------------------------- */
