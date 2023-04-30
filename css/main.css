@@ -77,14 +77,13 @@ a.text:hover {
     border-radius: 114px;
     padding-top: 0.5rem;
     padding-bottom: 0.8rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 5.5rem;
+    padding-right: 5.5rem;
 }
 
 .resume:hover {
     background-color: #fff2df;
     font-style: italic;
-    padding-bottom: 0.62rem;
 }
 
 .sliders{
@@ -119,7 +118,7 @@ img.slideImg{
 .overlay-text{
     color: black;
     max-width: 15rem;
-    margin-top: -1rem;
+    margin-top: -1.6rem;
     transform: translate(9rem);
     position: absolute;
     font-style: italic;
