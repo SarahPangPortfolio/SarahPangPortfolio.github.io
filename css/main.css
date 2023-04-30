@@ -6,14 +6,23 @@
 html{
     background-color: #ffffff;
     margin:2rem;
-    margin-left: 4rem;
-    margin-right: 4rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
 }
 
-h1 {
+h1{
     font-family: 'sohne', Arial, sans-serif;
     font-weight: 1;
     font-size: 62px;
+    line-height: 4.3rem;
+}
+
+h4{
+    font-family: 'sohne', Arial, sans-serif;
+    font-weight: 1;
+    font-size: 35px;
+    line-height: 2.5rem;
+    margin-top: -2.5rem;
 }
 
 h2{
@@ -49,7 +58,7 @@ a.text:hover {
 
 .front-copy{
     margin-top: -2rem;
-    max-width: 50%;
+    max-width: 60%;
 }
 
 .fixed{
