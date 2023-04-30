@@ -90,6 +90,7 @@ a.text:hover {
     display: flex;
     position: relative;
     border-radius: 114px;
+    
 }
 
 .projectLink:hover img.slideImg{
@@ -106,12 +107,18 @@ img.slideImg{
     display: block;
 }
 
+.projectLink{
+    object-fit: cover;
+}
+
 .background-color{
     position: absolute;
-    width: 437px;
-    height: 228px;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
     border-radius: 114px;
     background-color: #fff2df;
+    border: 2px solid rgb(0, 0, 0);
     z-index: -3;
 }
 
@@ -119,7 +126,7 @@ img.slideImg{
     color: black;
     max-width: 15rem;
     margin-top: -1.6rem;
-    transform: translate(9rem);
+    transform: translate(8rem);
     position: absolute;
     font-style: italic;
 }
@@ -144,5 +151,10 @@ footer{
     position: fixed;
     bottom: 2rem;
     color: rgb(114, 114, 114);
+}
+
+img{
+    width: 100%;
+    height: auto;
 }
 /* -------------------------------------- RESPONSIVE ------------------------------------- */
