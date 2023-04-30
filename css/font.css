@@ -6,13 +6,13 @@
     font-display: swap;
   }
 
-@font-face {
-  font-family: "sohne mono";
+/* @font-face {
+  font-family: "sohne";
   font-style: italic;
-  src: url(/font/test-soehne-mono-buch-kursiv.woff) format("woff"),
-  url(/font/test-soehne-mono-buch-kursiv.woff2) format("woff2");
+  src: url(/font/test-soehne-buch-kursiv.woff) format("woff"),
+  url(/font/test-soehne-buch-kursiv.woff2) format("woff2");
   font-display: swap;
-}
+} */
 
 
 @font-face {
