@@ -6,17 +6,27 @@
     font-display: swap;
   }
 
+@font-face {
+  font-family: "sohne mono";
+  font-style: italic;
+  src: url(/font/test-soehne-mono-buch-kursiv.woff) format("woff"),
+  url(/font/test-soehne-mono-buch-kursiv.woff2) format("woff2");
+  font-display: swap;
+}
+
 
 @font-face {
-    font-family: "financier";
+    font-family: "sohne mono";
     font-style: normal;
-    src: url(/font/testfinanciertext-regular-webfont.woff) format("woff"),
-    url(/font/testfinanciertext-regular-webfont.woff2) format("woff2");
+    src: url(/font/test-soehne-mono-buch.woff) format("woff"),
+    url(/font/test-soehne-mono-buch.woff2) format("woff2");
     font-display: swap;
-  }
+}
 
 @font-face {
-    font-family: "financier";
-    font-style: italic;
-    src: url(/font/test-financier-text-regular-italic.woff2) format("woff2");
+  font-family: "sohne mono";
+  font-style: italic;
+  src: url(/font/test-soehne-mono-buch-kursiv.woff) format("woff"),
+  url(/font/test-soehne-mono-buch-kursiv.woff2) format("woff2");
+  font-display: swap;
 }
