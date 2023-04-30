@@ -10,6 +10,7 @@ header{
 
 .backButton {
     position: fixed;
+    margin-left: -6rem;
     top: 2rem;
     padding-left: 1rem;
     padding-top: 0.5rem;
@@ -23,6 +24,36 @@ header{
 .backButton:hover {
     background-color: #fff2df;
 }
+
+.navbar {
+    position: fixed;
+    height: 100%;
+    float: left;
+    list-style-type: none;
+    margin-top: 2.1rem;
+    margin-left: -9.9rem;
+    padding: 0;
+}
+
+.navbar li {
+    display: block;
+}
+
+.navbar a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #fff2df;
+    font-style: italic;
+}
+/* #nav-trans{
+
+} */
 
 .project-head{
     font-size: 3rem;
