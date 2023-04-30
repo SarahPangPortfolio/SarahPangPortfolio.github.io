@@ -136,9 +136,13 @@ img.slideImg{
     padding: 2rem;
 }
 
+footer{
+    color: rgb(114, 114, 114);
+}
+
 .mark{
     position: fixed;
-    bottom: 0;
+    bottom: 2rem;
     color: rgb(114, 114, 114);
 }
 /* -------------------------------------- RESPONSIVE ------------------------------------- */
